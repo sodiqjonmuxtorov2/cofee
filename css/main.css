@@ -440,4 +440,11 @@ body {
 
 .footer__link:hover {
   color: aliceblue;
+}
+
+.footer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
 }/*# sourceMappingURL=main.css.map */

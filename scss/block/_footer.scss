@@ -28,3 +28,7 @@ color: #83888f;
 .footer__link:hover{
     color: aliceblue;
 }
+.footer__link{
+    display: flex;
+    gap: 25px;
+}
