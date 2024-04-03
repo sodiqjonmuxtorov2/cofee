@@ -1,0 +1,123 @@
+.main__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #83888f;
+    margin-bottom: 80px;
+}
+.main__item_title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    color: #fdd6ba;
+    margin-bottom: 30px;
+}
+.main__card {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 114%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 24px;
+}
+.main__button {
+    display: none;
+}
+.main__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #333d4b;
+}
+
+.main__content {
+    margin-top: 120px;
+}
+.main_img {
+    margin-top: 80px;
+    display: none;
+}
+.main__uzun_img {
+    display: none;
+}
+.main__button:hover{
+background-color: gold;
+color: green;
+}
+@media screen and (min-width: 768px) {
+    .main__title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 133%;
+        text-align: start;
+        color: #83888f;
+    }
+    .main_img {
+        margin-bottom: 80px;
+        display: flex;
+    }
+    .main__block {
+        margin-top: 80px;
+        max-width: 689px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main__list {
+        display: flex;
+        gap: 40px;
+    }
+    .main__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: start;
+        color: #333d4b;
+    }
+    .main__content {
+        text-align: start;
+    }
+    .main__card {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 114%;
+        text-align: start;
+        color: #333d4b;
+        margin-bottom: 24px;
+    }
+    .main__item_title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 100%;
+        text-align: start;
+        color: #fdd6ba;
+        margin-bottom: 30px;
+    }
+    .main__button {
+        padding: 11px 30px;
+        background-color: #0e8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        text-align: center;
+        color: #fefcf7;
+        display: inline-block;
+        margin-top: 44px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .main__block {
+        max-width: 1045px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main__img {
+        display: flex;
+    }
+    .main__list {
+        display: flex;
+        gap: 140px;
+    }
+}
